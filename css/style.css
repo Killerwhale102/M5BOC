@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    min-height: 100vh;
+    background-color: aqua;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header, footer{
+    background: white;
+    min-height: 10rem;
+    height: 10rem;
+}
+
+nav{
+    height: 100%;
+}
+
+
+.top-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20vw;
+}
+
+.top-navigation div{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-navigation div img{
+    object-fit: contain;
+    height: 12rem;
+}
+
+.top-navigation li{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 3rem;
+}
+
+.top-navigation li a{
+    color: black;
+    text-decoration: none;
+}
+
+.top-navigation li a:hover{
+    color: gray;
+}
+
+.button{
+    color: white;
+    font-size: 3rem;
+    background: #bf1313;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+main{
+    min-height: 80vh;
+}
+
+.section1{
+    background: #1d1e20;
+    width: 100vw;
+    height: 70vh;
+}
+
+.section1 article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.section1 article img{
+    height: 65vh;
+}
+
+.section2{
+    background: blue;
+    height: 50vh;
+    width: 60vw;
+    margin: 0 auto
+}
+
+footer{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
